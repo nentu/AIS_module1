@@ -1,0 +1,2095 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/кириллвикторович/ontologies/2024/8/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/кириллвикторович/ontologies/2024/8/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/кириллвикторович/ontologies/2024/8/untitled-ontology-2/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#country"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#faster"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#protected"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#upgrade"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#level"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#amx12t"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#amx1375"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#amx1390"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#amx38"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#b1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bc25t"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bc25tAP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#blackPrince"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#caernarvon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#churchill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#conquerror"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cruiserII"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cruiserIII"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cruiserIV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#england"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#france"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fv215b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#heavy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#light"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#matilda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#medium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#r35"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#amx1375"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#amx1390"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#amx38"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#b1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#bc25t"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#blackPrince"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#caernarvon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#churchill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#conquerror"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#d2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#england"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#france"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#fv215b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#heavy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#light"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#medium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#r35"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#country"/>
+        <NamedIndividual IRI="#amx12t"/>
+        <NamedIndividual IRI="#france"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx12t"/>
+        <NamedIndividual IRI="#amx38"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx12t"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx12t"/>
+        <NamedIndividual IRI="#blackPrince"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx12t"/>
+        <NamedIndividual IRI="#caernarvon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx12t"/>
+        <NamedIndividual IRI="#churchill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx12t"/>
+        <NamedIndividual IRI="#conquerror"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx12t"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx12t"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx12t"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx12t"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx12t"/>
+        <NamedIndividual IRI="#fv215b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx12t"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx12t"/>
+        <NamedIndividual IRI="#r35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#amx12t"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type"/>
+        <NamedIndividual IRI="#amx12t"/>
+        <NamedIndividual IRI="#light"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#upgrade"/>
+        <NamedIndividual IRI="#amx12t"/>
+        <NamedIndividual IRI="#amx1375"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#country"/>
+        <NamedIndividual IRI="#amx1375"/>
+        <NamedIndividual IRI="#france"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1375"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1375"/>
+        <NamedIndividual IRI="#amx38"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1375"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1375"/>
+        <NamedIndividual IRI="#blackPrince"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1375"/>
+        <NamedIndividual IRI="#caernarvon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1375"/>
+        <NamedIndividual IRI="#churchill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1375"/>
+        <NamedIndividual IRI="#conquerror"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1375"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1375"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1375"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1375"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1375"/>
+        <NamedIndividual IRI="#fv215b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1375"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1375"/>
+        <NamedIndividual IRI="#r35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#amx1375"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#amx1375"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type"/>
+        <NamedIndividual IRI="#amx1375"/>
+        <NamedIndividual IRI="#light"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#upgrade"/>
+        <NamedIndividual IRI="#amx1375"/>
+        <NamedIndividual IRI="#amx1390"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#country"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#france"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#amx1375"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#amx38"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#blackPrince"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#caernarvon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#churchill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#conquerror"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#fv215b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#r35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#amx1375"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#light"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#upgrade"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#country"/>
+        <NamedIndividual IRI="#amx38"/>
+        <NamedIndividual IRI="#france"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx38"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx38"/>
+        <NamedIndividual IRI="#blackPrince"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx38"/>
+        <NamedIndividual IRI="#caernarvon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx38"/>
+        <NamedIndividual IRI="#churchill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx38"/>
+        <NamedIndividual IRI="#conquerror"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx38"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx38"/>
+        <NamedIndividual IRI="#fv215b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx38"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#amx38"/>
+        <NamedIndividual IRI="#r35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#amx38"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#amx38"/>
+        <NamedIndividual IRI="#amx1375"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#amx38"/>
+        <NamedIndividual IRI="#amx1390"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#amx38"/>
+        <NamedIndividual IRI="#bc25t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#amx38"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#amx38"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#amx38"/>
+        <NamedIndividual IRI="#r35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type"/>
+        <NamedIndividual IRI="#amx38"/>
+        <NamedIndividual IRI="#medium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#upgrade"/>
+        <NamedIndividual IRI="#amx38"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#country"/>
+        <NamedIndividual IRI="#b1"/>
+        <NamedIndividual IRI="#france"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#b1"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#b1"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#b1"/>
+        <NamedIndividual IRI="#amx1375"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#b1"/>
+        <NamedIndividual IRI="#amx1390"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#b1"/>
+        <NamedIndividual IRI="#amx38"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#b1"/>
+        <NamedIndividual IRI="#bc25t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#b1"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#b1"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#b1"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#b1"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#b1"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#b1"/>
+        <NamedIndividual IRI="#r35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type"/>
+        <NamedIndividual IRI="#b1"/>
+        <NamedIndividual IRI="#heavy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#upgrade"/>
+        <NamedIndividual IRI="#b1"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#country"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#france"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#amx1375"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#amx1390"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#amx38"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#blackPrince"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#caernarvon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#churchill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#conquerror"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#fv215b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#r35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#amx1375"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#amx1390"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <NamedIndividual IRI="#light"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#country"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#france"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#amx1375"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#amx1390"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#amx38"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#blackPrince"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#caernarvon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#churchill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#conquerror"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#fv215b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#r35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#amx1375"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#amx1390"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#light"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#upgrade"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <NamedIndividual IRI="#bc25t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#country"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#england"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#churchill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#amx1375"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#amx1390"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#amx38"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#bc25t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#churchill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#r35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#heavy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#upgrade"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <NamedIndividual IRI="#caernarvon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#country"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#england"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#blackPrince"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#churchill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#amx1375"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#amx1390"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#amx38"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#bc25t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#blackPrince"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#churchill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#r35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#heavy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#upgrade"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <NamedIndividual IRI="#conquerror"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#country"/>
+        <NamedIndividual IRI="#churchill"/>
+        <NamedIndividual IRI="#england"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#churchill"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#churchill"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#churchill"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#churchill"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#churchill"/>
+        <NamedIndividual IRI="#amx1375"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#churchill"/>
+        <NamedIndividual IRI="#amx1390"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#churchill"/>
+        <NamedIndividual IRI="#amx38"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#churchill"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#churchill"/>
+        <NamedIndividual IRI="#bc25t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#churchill"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#churchill"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#churchill"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#churchill"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#churchill"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#churchill"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#churchill"/>
+        <NamedIndividual IRI="#r35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type"/>
+        <NamedIndividual IRI="#churchill"/>
+        <NamedIndividual IRI="#heavy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#upgrade"/>
+        <NamedIndividual IRI="#churchill"/>
+        <NamedIndividual IRI="#blackPrince"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#country"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#england"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#blackPrince"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#caernarvon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#churchill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#amx1375"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#amx1390"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#amx38"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#bc25t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#blackPrince"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#caernarvon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#churchill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#r35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#heavy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#upgrade"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <NamedIndividual IRI="#fv215b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#country"/>
+        <NamedIndividual IRI="#cruiserII"/>
+        <NamedIndividual IRI="#england"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserII"/>
+        <NamedIndividual IRI="#amx38"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserII"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserII"/>
+        <NamedIndividual IRI="#blackPrince"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserII"/>
+        <NamedIndividual IRI="#caernarvon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserII"/>
+        <NamedIndividual IRI="#churchill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserII"/>
+        <NamedIndividual IRI="#conquerror"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserII"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserII"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserII"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserII"/>
+        <NamedIndividual IRI="#fv215b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserII"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserII"/>
+        <NamedIndividual IRI="#r35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type"/>
+        <NamedIndividual IRI="#cruiserII"/>
+        <NamedIndividual IRI="#light"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#upgrade"/>
+        <NamedIndividual IRI="#cruiserII"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#country"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+        <NamedIndividual IRI="#england"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+        <NamedIndividual IRI="#blackPrince"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+        <NamedIndividual IRI="#caernarvon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+        <NamedIndividual IRI="#churchill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+        <NamedIndividual IRI="#conquerror"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+        <NamedIndividual IRI="#fv215b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+        <NamedIndividual IRI="#r35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+        <NamedIndividual IRI="#amx1375"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+        <NamedIndividual IRI="#amx1390"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+        <NamedIndividual IRI="#bc25t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+        <NamedIndividual IRI="#r35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+        <NamedIndividual IRI="#medium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#upgrade"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#country"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#england"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#amx38"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#blackPrince"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#caernarvon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#churchill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#conquerror"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#fv215b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#r35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#amx1375"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#amx1390"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#amx38"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#bc25t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#r35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#medium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#upgrade"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#country"/>
+        <NamedIndividual IRI="#d2"/>
+        <NamedIndividual IRI="#france"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#d2"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#d2"/>
+        <NamedIndividual IRI="#amx1375"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#d2"/>
+        <NamedIndividual IRI="#amx1390"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#d2"/>
+        <NamedIndividual IRI="#amx38"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#d2"/>
+        <NamedIndividual IRI="#bc25t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#d2"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#d2"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#d2"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#d2"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#d2"/>
+        <NamedIndividual IRI="#r35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type"/>
+        <NamedIndividual IRI="#d2"/>
+        <NamedIndividual IRI="#heavy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#upgrade"/>
+        <NamedIndividual IRI="#d2"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#country"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#england"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#blackPrince"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#caernarvon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#churchill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#conquerror"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#amx1375"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#amx1390"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#amx38"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#bc25t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#blackPrince"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#caernarvon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#churchill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#conquerror"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#r35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <NamedIndividual IRI="#heavy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#country"/>
+        <NamedIndividual IRI="#matilda"/>
+        <NamedIndividual IRI="#england"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#matilda"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#matilda"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#matilda"/>
+        <NamedIndividual IRI="#amx1375"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#matilda"/>
+        <NamedIndividual IRI="#amx1390"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#matilda"/>
+        <NamedIndividual IRI="#amx38"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#matilda"/>
+        <NamedIndividual IRI="#bc25t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#matilda"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#matilda"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#matilda"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#matilda"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#matilda"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#matilda"/>
+        <NamedIndividual IRI="#r35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type"/>
+        <NamedIndividual IRI="#matilda"/>
+        <NamedIndividual IRI="#heavy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#upgrade"/>
+        <NamedIndividual IRI="#matilda"/>
+        <NamedIndividual IRI="#churchill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#country"/>
+        <NamedIndividual IRI="#r35"/>
+        <NamedIndividual IRI="#france"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#r35"/>
+        <NamedIndividual IRI="#b1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#r35"/>
+        <NamedIndividual IRI="#blackPrince"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#r35"/>
+        <NamedIndividual IRI="#caernarvon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#r35"/>
+        <NamedIndividual IRI="#churchill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#r35"/>
+        <NamedIndividual IRI="#conquerror"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#r35"/>
+        <NamedIndividual IRI="#d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#r35"/>
+        <NamedIndividual IRI="#fv215b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faster"/>
+        <NamedIndividual IRI="#r35"/>
+        <NamedIndividual IRI="#matilda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#r35"/>
+        <NamedIndividual IRI="#amx12t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#r35"/>
+        <NamedIndividual IRI="#amx1375"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#r35"/>
+        <NamedIndividual IRI="#amx1390"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#r35"/>
+        <NamedIndividual IRI="#bc25t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#r35"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#protected"/>
+        <NamedIndividual IRI="#r35"/>
+        <NamedIndividual IRI="#cruiserII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type"/>
+        <NamedIndividual IRI="#r35"/>
+        <NamedIndividual IRI="#medium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#upgrade"/>
+        <NamedIndividual IRI="#r35"/>
+        <NamedIndividual IRI="#amx38"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#level"/>
+        <NamedIndividual IRI="#amx12t"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#level"/>
+        <NamedIndividual IRI="#amx1375"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#level"/>
+        <NamedIndividual IRI="#amx1390"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#level"/>
+        <NamedIndividual IRI="#amx38"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#level"/>
+        <NamedIndividual IRI="#b1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#level"/>
+        <NamedIndividual IRI="#bc25t"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#level"/>
+        <NamedIndividual IRI="#bc25tAP"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#level"/>
+        <NamedIndividual IRI="#blackPrince"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#level"/>
+        <NamedIndividual IRI="#caernarvon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#level"/>
+        <NamedIndividual IRI="#churchill"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#level"/>
+        <NamedIndividual IRI="#conquerror"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#level"/>
+        <NamedIndividual IRI="#cruiserII"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#level"/>
+        <NamedIndividual IRI="#cruiserIII"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#level"/>
+        <NamedIndividual IRI="#cruiserIV"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#level"/>
+        <NamedIndividual IRI="#d2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#level"/>
+        <NamedIndividual IRI="#fv215b"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#level"/>
+        <NamedIndividual IRI="#matilda"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#level"/>
+        <NamedIndividual IRI="#r35"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#upgrade"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#country"/>
+        <Class IRI="#Tank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#type"/>
+        <Class IRI="#Tank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#upgrade"/>
+        <Class IRI="#Tank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#country"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#type"/>
+        <Class IRI="#Type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#upgrade"/>
+        <Class IRI="#Tank"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
